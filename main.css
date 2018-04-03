@@ -1,0 +1,135 @@
+body {
+	font-weight: normal;
+	position: relative;
+	background-color: #ffffff;
+}
+html, body {
+	overflow-x: hidden;
+	font-size: 100%;
+	max-width: 100%;
+	max-height: 100%;
+}
+.container-fluid {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.navi {
+	padding: 30px 0;
+	background-color: #ffffff;
+}
+.centerNav {
+	margin-top: 15px;
+	font-size: 20px;
+	color: #666666;
+}
+.centerNav:hover {
+	color: #FF3333;
+}
+.navbar-collapse .navbar-right li a:hover {
+	color: #FF3333;
+}
+.center:hover {
+	color: #E44C3F;
+}
+.navbar-default {
+	margin-bottom: 0;
+	border: none;
+	padding: 0 20px;
+}
+.navbar-default .navbar-toggle {
+	right: 30px;
+}
+* {
+  box-sizing: border-box;
+}
+section {
+	padding: 10px 20px;
+}
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+form {
+	border: 3px solid #f1f1f1;
+	max-width: 500px;
+	margin: auto;
+}
+h2 {
+	text-align: center;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+		max-width: 500px;
+		margin: auto;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
